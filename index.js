@@ -21,3 +21,21 @@ for(let i = 0; i < num.length; i++){
     }
 }
 console.log("Odd : ", odd);
+
+// n = 4, pattern print
+// *
+// * *
+// * * *
+// * * * *
+
+let n = 5;
+
+for(let i = 1; i <= n; i++){
+    let bag = "";
+    for(let j = 1; j <= n; j++){
+        if(j <= i){
+            bag += "* ";
+        }
+    }
+    console.log(bag);
+}
