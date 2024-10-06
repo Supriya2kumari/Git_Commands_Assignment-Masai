@@ -9,4 +9,15 @@ for(let i = 0; i < num.length; i++){
         even.push(num[i]);
     }
 }
-console.log(even);
+console.log("Even : ", even);
+
+// Odd Number
+
+let odd = [];
+
+for(let i = 0; i < num.length; i++){
+    if(num[i] % 2 !== 0){
+        odd.push(num[i]);
+    }
+}
+console.log("Odd : ", odd);
