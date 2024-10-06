@@ -1,4 +1,4 @@
-// Even Number
+
 
 let num = [4, 99, 56, 78, 89, 23, 66];
 
@@ -12,6 +12,8 @@ for(let i = 0; i < num.length; i++){
     }
 }
 console.log("Odd : ", odd);
+
+// Even Number
 
 let even = [];
 
